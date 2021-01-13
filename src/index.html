@@ -12,7 +12,8 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
-      autocomplete="off">
+      autocomplete="off"
+    >
 
       <fieldset class="info">
         <legend>Personal information</legend>
@@ -22,10 +23,11 @@
             Surname:
           </label>
           <input
-          type="text"
-          name="surname"
-          id="surname"
-          minlength="2">
+            type="text"
+            name="surname"
+            id="surname"
+            minlength="2"
+          >
         </div>
 
         <div class="section">
@@ -37,18 +39,20 @@
             name="f_name"
             id="f_name"
             minlength="2"
-            maxlength="10">
+            maxlength="10"
+          >
         </div>
 
         <div class="section">
           <label for="age">How old are You?</label>
           <input
-          type="number"
-          name="age"
-          id="age"
-          min="10"
-          max="101"
-          value="12">
+            type="number"
+            name="age"
+            id="age"
+            min="10"
+            max="101"
+            value="12"
+          >
         </div>
 
         <div class="section">
@@ -56,15 +60,17 @@
           <input
             type="date"
             name="bday"
-            id="bday">
+            id="bday"
+          >
         </div>
 
         <div class="section">
           <label for="accept">I accept the term of the agreement</label>
           <input
-          type="checkbox"
-          name="accept"
-          id="accept">
+            type="checkbox"
+            name="accept"
+            id="accept"
+          >
         </div>
 
       </fieldset>
@@ -74,20 +80,22 @@
         <div class="section">
           <label for="email">E-mail:</label>
           <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="email@example.com"
-          required>
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@example.com"
+            required
+          >
         </div>
 
         <div class="section">
           <label for="password">Password:</label>
           <input
-          type="password"
-          name="password"
-          id="password"
-          required>
+            type="password"
+            name="password"
+            id="password"
+            required
+          >
         </div>
       </fieldset>
 
@@ -100,15 +108,17 @@
               Do you love cats?
             </label>
             <input
-            type="radio"
-            name="love-cats-yes"
-            id="Yes">
+              type="radio"
+              name="love-cats-yes"
+              id="Yes"
+            >
             <label for="Yes">Yes</label>
 
             <input
-            type="radio"
-            name="love-cats-no"
-            id="No">
+              type="radio"
+              name="love-cats-no"
+              id="No"
+            >
             <label for="No">No</label>
           </div>
         </div>
@@ -116,15 +126,19 @@
         <div class="section">
           <label for="color">What is your favorite color?</label>
           <input
-          type="color"
-          name="color"
-          id="color">
+            type="color"
+            name="color"
+            id="color"
+          >
         </div>
 
         <div class="section">
           <label for="sleep">What time do you go to bed?</label>
-          <input type="time" step="1"
-          name="sleep" id="sleep">
+          <input type="time"
+            step="1"
+            name="sleep"
+            id="sleep"
+          >
         </div>
 
         <div class="">
@@ -132,7 +146,8 @@
           <select
             multiple
             name="brand"
-            id="brand">
+            id="brand"
+          >
 
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
@@ -143,10 +158,11 @@
         <div class="section">
           <label for="rate">How do you rate our work?</label>
           <input
-          type="range"
-          name="rate"
-          id="rate"
-          value="0">
+            type="range"
+            name="rate"
+            id="rate"
+            value="0"
+          >
         </div>
       </fieldset>
       <fieldset>
@@ -155,28 +171,33 @@
         <div class="section">
           <label for="comments">Comments:</label>
           <textarea
-          name="comments"
-          id="comments"
-          cols="15"
-          rows="2"
-          maxlength="50">
+            name="comments"
+            id="comments"
+            cols="15"
+            rows="2"
+            maxlength="50"
+          >
           </textarea>
         </div>
 
         <div class="section">
           <label for="recommend-us">Would you recommend us?</label>
           <select
-          name="recommend-us"
-          id="recommend-us"
-          size="1">
+            name="recommend-us"
+            id="recommend-us"
+            size="1"
+          >
             <option value="Yes">yes</option>
             <option value="No">no</option>
           </select>
         </div>
       </fieldset>
       <div class="section">
-        <input type="submit" value="Submit"
-        onsubmit="onSubmit()">
+        <input
+          type="submit"
+          value="Submit"
+          onsubmit="onSubmit()"
+        >
       </div>
     </form>
 
