@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,SACE,aACF,CAEA,sBACE,eACF,CAEA,uBACE,YACF,CAEA,SACE,kBACF","file":"style.eeaf18ca.css","sourceRoot":"..\\src","sourcesContent":[".section {\n  margin: 10px 0;\n}\n\n.section:last-of-type {\n  margin-bottom: 0;\n}\n\n.section:first-of-type {\n  margin-top: 0;\n}\n\nfieldset {\n  margin-bottom: 20px;\n}\n"]}
